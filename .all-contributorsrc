@@ -131,18 +131,6 @@
       ]
     },
     {
-      "login": "burkeholland",
-      "name": "Burke Holland",
-      "avatar_url": "https://avatars.githubusercontent.com/u/686963?v=4",
-      "profile": "https://github.com/burkeholland",
-      "contributions": [
-        "agents",
-        "infra",
-        "instructions",
-        "prompts"
-      ]
-    },
-    {
       "login": "danielmeppiel",
       "name": "Daniel Meppiel",
       "avatar_url": "https://avatars.githubusercontent.com/u/51440732?v=4",
@@ -300,15 +288,6 @@
       ]
     },
     {
-      "login": "nullchimp",
-      "name": "NULLchimp",
-      "avatar_url": "https://avatars.githubusercontent.com/u/58362593?v=4",
-      "profile": "https://github.com/nullchimp",
-      "contributions": [
-        "agents"
-      ]
-    },
-    {
       "login": "sdolgin",
       "name": "Saul Dolgin",
       "avatar_url": "https://avatars.githubusercontent.com/u/576449?v=4",
@@ -433,15 +412,6 @@
       "contributions": [
         "agents",
         "instructions"
-      ]
-    },
-    {
-      "login": "AmeliaRose802",
-      "name": "Amelia Payne",
-      "avatar_url": "https://avatars.githubusercontent.com/u/26167931?v=4",
-      "profile": "https://github.com/AmeliaRose802",
-      "contributions": [
-        "agents"
       ]
     },
     {
