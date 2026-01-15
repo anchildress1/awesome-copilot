@@ -103,6 +103,15 @@ You are an expert [domain/role] with deep knowledge in [specific areas].
 - [Best practices to follow]
 ```
 
+### Adding Skills
+
+Skills are self-contained folders in the `skills/` directory that include a `SKILL.md` file (with front matter) and optional bundled assets.
+
+1. **Create a new skill folder**: Run `npm run skill:create -- --name <skill-name> --description "<skill description>"`
+2. **Edit `SKILL.md`**: Ensure the `name` matches the folder name (lowercase with hyphens) and the `description` is clear and non-empty
+3. **Add optional assets**: Keep bundled assets reasonably sized (under 5MB each) and reference them from `SKILL.md`
+4. **Validate and update docs**: Run `npm run skill:validate` and then `npm run build` to update the generated README tables
+
 ### Adding Collections
 
 Collections group related prompts, instructions, and chat modes around specific themes or workflows, making it easier for users to discover and adopt comprehensive toolkits.
@@ -246,7 +255,8 @@ We welcome many kinds of contributions, including the custom categories below:
 | --- | --- | :---: |
 | **Instructions** | Custom instruction sets that guide GitHub Copilot behavior | 🧭 |
 | **Prompts** | Reusable or one-off prompts for GitHub Copilot | ⌨️ |
-| **Agents (Chat Modes)** | Defined Copilot roles or personalities | 🎭 |
+| **Agents (Chat Modes)** | Defined GitHub Copilot roles or personalities | 🎭 |
+| **Skills** | Specialized knowledge of a task for GitHub Copilot | 🧰 |
 | **Collections** | Curated bundles of related prompts, agents, or instructions | 🎁 |
 
 In addition, all standard contribution types supported by [All Contributors](https://allcontributors.org/emoji-key/) are recognized.
